@@ -22,7 +22,7 @@ jobs:
         python-version: '3.11'
     
     - name: Build using AppService-Build
-      uses: azure/appservice-build@v3
+      uses: azure/appservice-build@v2
       with:
         platform: python
         platform-version: '3.11'
