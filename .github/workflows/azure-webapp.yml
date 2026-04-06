@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'cicd-demo-app'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9f2a886606e54f4aa107682120559d17 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
         package: .
